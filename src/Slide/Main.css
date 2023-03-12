@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+.main .rr{
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
+.main .pp{
+    display: flex;
+    justify-content: center;
+}
+.pp .PP{
+    margin-top: 10px;
+    width: 100px;
+    height: 4px;
+    background-color: black;
+}
+.Mains{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.mains{
+    overflow: hidden;
+    width: 700px;
+    height: 600px;
+    border: 1px solid black;
+}
+.Btn{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.mains {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.ff button{
+    width: 50px;
+    height: 40px;
+}
+.ff{
+    width: 50px;
+    height: 40px;
+}
+.ff h2{
+    cursor: pointer;
+}
+.tt h2{
+    cursor: pointer;
+}
+.tt{
+    width: 50px;
+    height: 40px;
+}
+.tt button{
+    width: 50px;
+    height: 40px;
+}
+.ss{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+
+}
+.ssa{
+    position: relative;
+    right: 0px;
+    transition: 0.7s;
+}
+.ssa .imgs{
+    display: flex;
+    justify-content: center;
+}
+.ssa img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.ssa .nm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.ssa .pp{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.ssa .p{
+    width: 500px;
+    height: auto;
+}
+.ssa .msg{
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+}
+.ssa .msg h1{
+    font-size: 70px;
+    color: gray;
+}
